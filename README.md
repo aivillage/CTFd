@@ -2,7 +2,7 @@
 
 ## Description
 
-This is a fork of [CTFd](), which is a framework for setting up capture-the-flag games at conventions. It serves to wrap our [LLM Verification Plugin](https://github.com/aivillage/llm_verification), which exists as a Git submodule at `CTFd/plugins/llm_verification`.
+This is a fork of [CTFd](https://github.com/aivillage/CTFd), which is a framework for setting up capture-the-flag games at conventions. It serves to wrap our [LLM Verification Plugin](https://github.com/aivillage/llm_verification), which exists as a Git submodule at `CTFd/plugins/llm_verification`.
 
 It automatically receives updates from the upstream fork via the [pull](https://github.com/wei/pull) Github App. This can be configured in the [repo's settings](https://github.com/aivillage/CTFd/settings/installations).
 
