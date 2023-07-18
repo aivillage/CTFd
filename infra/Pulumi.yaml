@@ -1,0 +1,6 @@
+name: CTFd
+runtime:
+  name: python
+  options:
+    virtualenv: venv
+description: Simple Prompt Detective AWS deployment

@@ -1,0 +1,5 @@
+config:
+  CTFd:containerPort: "80"
+  CTFd:cpu: "32"
+  CTFd:memory: "32"
+  aws:region: us-east-1
