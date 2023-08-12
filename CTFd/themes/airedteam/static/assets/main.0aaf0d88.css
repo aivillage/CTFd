@@ -35,17 +35,16 @@ body {
 	border-bottom: 3px solid #003300;
 }
 .challenge-button {
-	background-image: url('/themes/airedteam/static/img/branding/Solar-button2.png');
-	background-repeat: no-repeat;
-	background-position-x: 0px;
-	background-color: #4e6288;
-	border-radius: 50px;
-	font-weight: bolder;
-	font-size: 25;
-	text-align: center;
-	padding-left: 25px;
-	padding-right: 25px;
+ 
+  background-color: #4e6288;
+  border-radius: 50px;
+  font-weight: bolder;
+  font-size: 25;
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
 }
+
 .challenge-button:hover {
 	background-color: #95ebf1;
 	color: black;

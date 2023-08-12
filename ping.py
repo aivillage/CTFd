@@ -4,7 +4,7 @@ Essentially a cross-platform, database agnostic mysqladmin.
 """
 import time
 
-from sqlalchemy import create_engine
+from sqlalchemy import create_engine, text
 from sqlalchemy.engine.url import make_url
 
 from CTFd.config import Config
@@ -26,8 +26,8 @@ while True:
     try:
         engine.raw_connection()
         break
-    except Exception:
-        print(".", end="", flush=True)
+    except Exception as e:
+        print(e, end="", flush=True)
         time.sleep(1)
 
 print(f"{url.host} is ready")
