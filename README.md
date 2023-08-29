@@ -1,4 +1,5 @@
 # AI Village CTFd
+Deprecated. CTFd is now provided as a docker base image in https://github.com/aivillage/llm_verification/
 
 ## Description
 
